@@ -19,22 +19,35 @@ h1{font-size:28px;margin:0 0 4px} h2{font-size:19px;margin:32px 0 8px}
   <p class="sub">Last updated: October 26, 2026</p>
 
   <h2>Summary</h2>
-  <p>Clipnote does not collect, sell or share any personal data. Everything it does happens inside your browser.</p>
+  <p>Clipnote does not collect, sell or share any personal data. Summaries, transcription and notes are all processed on your own computer. Clipnote has no servers.</p>
+
+  <h2>Where Clipnote runs</h2>
+  <ul>
+    <li><b>YouTube:</b> on youtube.com video pages the panel appears automatically.</li>
+    <li><b>Other sites:</b> Clipnote runs on a page only after you click its toolbar button on that tab. It does not run on, or read, any other page.</li>
+  </ul>
 
   <h2>What Clipnote reads</h2>
-  <p>On youtube.com video pages, Clipnote reads the captions that YouTube already provides for the video you are watching, so it can build a summary and a searchable transcript. It also reads the current playback time so notes and key moments can jump to the right place.</p>
+  <ul>
+    <li><b>Captions</b> the site already provides for the video you are watching, to build the summary and the searchable transcript.</li>
+    <li><b>Playback time</b> of that video, so notes and key moments can jump to the right place.</li>
+    <li><b>Audio, only when you press “Listen &amp; transcribe”:</b> the sound of that video (or of that tab, if the site does not let Clipnote read the video directly) is turned into text by a speech recognition model running on your computer. The audio is never recorded to disk and never sent anywhere. Listening stops when you press Stop, close the panel or leave the page.</li>
+  </ul>
 
   <h2>What Clipnote stores</h2>
-  <p>Your notes (text and timestamp, per video) and whether the panel is open are saved with Chrome’s local extension storage on your own computer. They are never uploaded. Uninstalling Clipnote deletes them.</p>
+  <p>Your notes, text transcribed with “Listen &amp; transcribe”, and a few settings (panel open or closed, spoken language) are saved with Chrome’s local extension storage on your computer. They are never uploaded. Uninstalling Clipnote deletes them.</p>
 
-  <h2>AI summary</h2>
-  <p>The optional AI summary uses Chrome’s built-in on-device AI. The transcript is processed on your device and is not sent to Clipnote or to any server run by Clipnote.</p>
+  <h2>Downloads Clipnote makes</h2>
+  <ul>
+    <li>The first time you use “Listen &amp; transcribe”, Clipnote downloads the open Whisper speech recognition model (about 80 MB) from Hugging Face (huggingface.co) and keeps it in your browser’s cache. Only the model file is downloaded; no audio, text or personal data is sent.</li>
+    <li>The optional AI summary uses your browser’s built-in on-device AI. Your browser may download its own AI model the first time.</li>
+  </ul>
 
   <h2>What Clipnote does not do</h2>
   <ul>
     <li>No accounts, sign-in, analytics, tracking or advertising.</li>
-    <li>No servers: Clipnote has no backend and makes no network requests of its own beyond the caption data YouTube serves to the page.</li>
-    <li>No browsing history is read; Clipnote runs only on youtube.com.</li>
+    <li>No browsing history is read.</li>
+    <li>No audio or text leaves your computer.</li>
   </ul>
 
   <h2>Changes and contact</h2>
