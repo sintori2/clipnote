@@ -16,10 +16,10 @@ h1{font-size:28px;margin:0 0 4px} h2{font-size:19px;margin:32px 0 8px}
 <body>
 <main>
   <h1>Clipnote Privacy Policy</h1>
-  <p class="sub">Last updated: October 26, 2026</p>
+  <p class="sub">Last updated: October 27, 2026</p>
 
   <h2>Summary</h2>
-  <p>Clipnote does not collect, sell or share any personal data. Summaries, transcription and notes are all processed on your own computer. Clipnote has no servers.</p>
+  <p>Clipnote does not collect, sell or share any personal data. AI summaries, transcription and notes are all processed on your own computer. Clipnote has no servers.</p>
 
   <h2>Where Clipnote runs</h2>
   <ul>
@@ -35,13 +35,15 @@ h1{font-size:28px;margin:0 0 4px} h2{font-size:19px;margin:32px 0 8px}
   </ul>
 
   <h2>What Clipnote stores</h2>
-  <p>Your notes, text transcribed with “Listen &amp; transcribe”, and a few settings (panel open or closed, spoken language) are saved with Chrome’s local extension storage on your computer. They are never uploaded. Uninstalling Clipnote deletes them.</p>
+  <p>Your notes, text transcribed with “Listen &amp; transcribe”, AI summaries of videos you opened, and a few settings (panel open or closed, spoken language) are saved with Chrome’s local extension storage on your computer. They are never uploaded. Uninstalling Clipnote deletes them.</p>
 
   <h2>Downloads Clipnote makes</h2>
   <ul>
-    <li>The first time you use “Listen &amp; transcribe”, Clipnote downloads the open Whisper speech recognition model (about 80 MB) from Hugging Face (huggingface.co) and keeps it in your browser’s cache. Only the model file is downloaded; no audio, text or personal data is sent.</li>
-    <li>The optional AI summary uses your browser’s built-in on-device AI. Your browser may download its own AI model the first time.</li>
+    <li>The first time you use “Listen &amp; transcribe”, Clipnote downloads the open Whisper speech recognition model (about 80 MB) from Hugging Face (huggingface.co).</li>
+    <li>The first time you use the AI summary, Clipnote downloads Google’s open Gemma 3 1B language model (about 760 MB) from Hugging Face. It runs on your own computer using your graphics card (WebGPU).</li>
+    <li>Both models are kept in your browser’s cache. Only the model files are downloaded; no audio, captions, text or personal data is sent anywhere.</li>
   </ul>
+  <p class="sub">Gemma is provided under and subject to the Gemma Terms of Use found at <a href="https://ai.google.dev/gemma/terms">ai.google.dev/gemma/terms</a>.</p>
 
   <h2>What Clipnote does not do</h2>
   <ul>
