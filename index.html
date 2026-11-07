@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Clipnote</title>
-<meta name="description" content="Summaries, key moments and timestamp notes for YouTube and other video sites, with on-device transcription. Free, private, no account.">
+<meta name="description" content="Private AI video summary and timestamp notes. Summaries, transcription and search run on your own computer. Free, no account.">
 <link rel="icon" href="icon.png">
 <style>
 :root{--bg:#f7f6fc;--ink:#16131f;--sub:#5b566e;--acc:#6d5bd0;--card:#fff;--line:#e4e1f0}
@@ -20,6 +20,9 @@ img.shot{width:100%;border-radius:12px;border:1px solid var(--line)}
 h2{font-size:20px;margin:40px 0 10px}
 ul{padding-left:20px}
 a{color:var(--acc)}
+.cta{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px;margin:0 0 28px}
+.cta:hover{filter:brightness(1.08)}
+@media (prefers-color-scheme:dark){.cta{color:#141219}}
 footer{margin-top:48px;color:var(--sub);font-size:14px}
 </style>
 </head>
@@ -27,11 +30,13 @@ footer{margin-top:48px;color:var(--sub);font-size:14px}
 <main>
   <div class="top"><img src="icon.png" alt=""><h1>Clipnote</h1></div>
   <p class="lead">An AI that runs on your own computer tells you what any video is about, its key points, its conclusion and clickable chapters. No captions? It listens and transcribes. Free, private, no account, no servers.</p>
+  <a class="cta" href="https://chromewebstore.google.com/detail/jlabjcmlebaecdchohblfooaikhaokhg">Add to Chrome — it’s free</a>
   <img class="shot" src="screenshot-1-summary.png" alt="Clipnote panel showing a three-line summary and key moments next to a video">
   <h2>What it does</h2>
   <ul>
     <li><b>AI summary</b> — what the video is about, the key points, the conclusion, and chapters you can click to jump to. Made by Google’s open Gemma model running on your graphics card.</li>
     <li><b>Notes</b> — write a note at any moment; each note keeps its timestamp. Copy or download as Markdown.</li>
+    <li><b>Library</b> — every video you summarized is kept on your PC with its transcript, summary and notes. Search them all at once and jump to the exact moment.</li>
     <li><b>Transcript</b> — search everything that was said; the current line is highlighted as you watch.</li>
     <li><b>Listen &amp; transcribe</b> — for videos without captions, Clipnote listens while you watch and writes down what is said, using a speech model that runs on your computer.</li>
     <li><b>Any site</b> — on YouTube the panel appears by itself; on other sites, click the Clipnote button in the toolbar.</li>
@@ -39,6 +44,7 @@ footer{margin-top:48px;color:var(--sub);font-size:14px}
     <li><b>Video files on your PC</b> — open meeting or lecture recordings (mp4, webm, mov…) and subtitle files; nothing is uploaded.</li>
     <li><b>Offline mode</b> — after the one-time model download, block every outside request. The panel shows the engine’s network count: 0 sent anywhere else.</li>
   </ul>
+  <p><a class="cta" href="https://chromewebstore.google.com/detail/jlabjcmlebaecdchohblfooaikhaokhg">Add to Chrome — it’s free</a></p>
   <p><a href="privacy.html">Privacy policy</a></p>
   <footer>Clipnote is not affiliated with YouTube or Google. Gemma is provided under and subject to the Gemma Terms of Use (ai.google.dev/gemma/terms).</footer>
 </main>
